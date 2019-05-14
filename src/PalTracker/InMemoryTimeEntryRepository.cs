@@ -19,6 +19,7 @@ namespace PalTracker
         }
 
         public TimeEntry Find(long id) => _timeEntries[id];
+        
 
         public bool Contains(long id) => _timeEntries.ContainsKey(id);
 
