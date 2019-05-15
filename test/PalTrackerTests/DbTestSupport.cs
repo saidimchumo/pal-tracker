@@ -6,7 +6,8 @@ namespace PalTrackerTests
 {
     public static class DbTestSupport
     {
-        public const string TestDbConnectionString = "server=127.0.0.1;uid=tracker_dotnet;pwd=password;database=tracker_dotnet_test";
+        //public const string TestDbConnectionString = "server=127.0.0.1;uid=tracker_dotnet;pwd=password;database=tracker_dotnet_test";
+        public const string TestDbConnectionString = "Server=127.0.0.1;Database=tracker_dotnet_test;Uid=tracker_dotnet;Pwd=password";
 
         public static IList<IDictionary<string, object>> ExecuteSql(string sql)
         {
