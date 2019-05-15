@@ -12,7 +12,7 @@ namespace PalTrackerTests
     {
         private readonly TimeEntryHealthContributor _contributor;
         private readonly Mock<ITimeEntryRepository> _repository;
-
+        
         public TimeEntryHealthContributorTest()
         {
             _repository = new Mock<ITimeEntryRepository>();
